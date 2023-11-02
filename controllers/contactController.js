@@ -102,3 +102,6 @@ const deleteContact = asyncHandler(async (req, res) => {
     res.status(200).json(contact);
 });
 module.exports = { getContacts, createContact, getContact, updateContact, deleteContact };
+
+
+// hey this is just for checking pushing my update code to github
